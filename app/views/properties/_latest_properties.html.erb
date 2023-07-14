@@ -1,0 +1,19 @@
+<% @properties.each do |property| %>
+<div class="col-12">
+   <div class=property border>
+    <center><img class="mb-4" src="https://noithatmanhhe.vn/media/3246/phong-tro-cho-vo-chong-moi-cuoi.jpg?width=700&height=393.75" alt="" width="1000" height="600"></center>
+    <h3 class="h5 mt-3"><%= link_to property.name, property_path(property)%><h3>
+     <div class="property-summary mb-2 p-3">
+    <i data-feather="users"></i></span>
+    <i data-feather="users"></i></span>
+    <i data-feather="users"></i></span>
+    <i data-feather="users"></i></span>
+    <i data-feather="users"></i></span>
+    <div>
+    <h3><%= link_to (property.address), property_path(property)%><h3> <span> 
+    <br>
+    <br>
+    <br>
+</div>
+</div>
+<% end %>   
